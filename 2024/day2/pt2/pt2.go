@@ -26,22 +26,18 @@ func main() {
 	dataStr := string(data)
 	lines := strings.Split(dataStr, "\r\n") //windows newline
 	safeCount := 0
-	var badlines []string //tracking lines that are "unsafe" for the "Problem Dampener" check
 	for _, l := range lines {
-		if safe := validate(l, -1); safe { //validate removing no items
+		ld := strings.Fields(l)
+		if safe := validate(ld, -1); safe { //validate removing no items
 			safeCount++
 		} else {
-			badlines = append(badlines, l)
-		}
-	}
-
-	for _, l := range badlines {
-		ld := strings.Fields(l)
-		for x := range len(ld) { //validate after removing each index iteratively
-			safe := validate(l, x)
-			if safe {
-				safeCount++
-				break
+			//run the "Problem Dampener" checks
+			for x := range len(ld) { //validate after removing each index iteratively
+				safe := validate(ld, x)
+				if safe {
+					safeCount++
+					break
+				}
 			}
 		}
 	}
@@ -50,8 +46,7 @@ func main() {
 	log.Printf("Execution time: %s", time.Since(st).String())
 }
 
-func validate(l string, rm int) bool {
-	ld := strings.Fields(l) //cant Split() on whitespace, using Fields will split on whitespace
+func validate(ld []string, rm int) bool {
 	last := -1
 	increasing := false
 	decreasing := false
@@ -97,4 +92,4 @@ func validate(l string, rm int) bool {
 	return false
 }
 
-//Execution time: 1.9946ms
+//Execution time: 1.0167ms
