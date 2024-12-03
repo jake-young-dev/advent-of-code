@@ -14,12 +14,8 @@ def run():
  
     similarity = 0
     for x in left:
-        count = 0
-        for y in right:
-            if x == y:
-                count += 1
- 
-        similarity += int(x) * count
+        if x in right:
+            similarity += int(x) * right.count(x)
  
     print("Similarity score: " + str(similarity))
  
@@ -28,4 +24,4 @@ if __name__ == "__main__":
     timing = timeit.timeit(run, number=1)
     print("Execution time: " + str(timing) + " seconds")
 
-#Execution time: 0.02903360000345856 seconds
+#Execution time: 0.014825599966570735 seconds
