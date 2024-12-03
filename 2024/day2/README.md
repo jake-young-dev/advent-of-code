@@ -2,8 +2,8 @@
 
 ## Challenges
 <ol>
-    <li><b>Part 1:</b> <span style="color:green">Completed!</span></li>
-    <li><b>Part 2:</b> <span style="color:green">Completed!</span></li>
+    <li><b>Part 1:</b> :white_check_mark:</li>
+    <li><b>Part 2:</b> :white_check_mark:</li>
 </ol>
 
 ## Performance
