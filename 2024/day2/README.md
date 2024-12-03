@@ -8,6 +8,6 @@
 
 ## Performance
 <ol>
-    <li><b>Part 1:</b> Go (76 lines) <span style="color:cyan">510.9µs</span></li>
-    <li><b>Part 2:</b> Go (95 lines) <span style="color:green">1.0167ms</span></li>
+    <li><b>Part 1:</b> Go (76 lines) 510.9µs :blue_heart:</li>
+    <li><b>Part 2:</b> Go (95 lines) 1.0167ms :green_heart:</li>
 </ol>
