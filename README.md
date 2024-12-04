@@ -1,6 +1,14 @@
-# advent-of-code
+# Advent of Code
 
-This is a code repo for the collection of the adventofcode challenges. The challenges will mostly be done in Go, Javascript, or Python but I may experiment with other languages for fun! Each day contains a README with the performance reports
+This repo will hold the code for the adventofcode challenges for each year. Programs will be ranked based on performance based on the table below.
 
-## Perfomance ranks
-< 1ms is :blue_heart:, 1-5ms is :green_heart:, 5-10ms is :yellow_heart:, 10+ms is :heart:
+## Performance ranks
+| Time | Icon |
+| :--: | :--: |
+| <1ms | :blue_heart: |
+| 1-5ms | :green_heart: |
+| 5-10ms | :yellow_heart: |
+| 10+ms | :heart: |
+
+## Languages
+Challenges will be written in a few different languages both for fun and to keep my skills sharp
