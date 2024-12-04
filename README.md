@@ -14,4 +14,4 @@ This repo will hold the code for the adventofcode challenges for each year
 | 100+ms | :coffin: | 0 |
 
 ## Disclaimer
-Challenges will be written in a few different langauges to add to the challenge and will be ranked based on performance. Each part of the challenge will be given its own rank and a running count will be kept above. Each day has more informaion in its own README
+Challenges will be written in a few different langauges to add to the challenge and will be ranked based on performance. Each part of the challenge will be given its own rank and a running count will be kept above. Each day has more information in its own README
