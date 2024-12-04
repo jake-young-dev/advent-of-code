@@ -8,6 +8,6 @@
 
 ## Performance
 <ol>
-    <li><b>Part 1:</b> NodeJS (27 lines) 9.168ms :heart:</li>
-    <li><b>Part 1:</b> NodeJS (68 lines) 8.808ms :heart:</li>
+    <li><b>Part 1:</b> NodeJS (27 lines) 9.168ms :yellow_heart:</li>
+    <li><b>Part 1:</b> NodeJS (68 lines) 8.808ms :yellow_heart:</li>
 </ol>
