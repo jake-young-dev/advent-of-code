@@ -7,7 +7,7 @@ This repo will hold the code for the adventofcode challenges for each year
 | :--: | :--: | :--: |
 | <1ms | :gem: | 1 |
 | 1+ms | :crown: | 2 |
-| 2+ms | :moneybag: | 4 |
+| 2+ms | :moneybag: | 5 |
 | 25+ms | :3rd_place_medal: | 1 |
 | 50+ms | :warning: | 0 |
 | 75+ms | :part_alternation_mark: | 0 |
