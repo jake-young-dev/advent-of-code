@@ -3,7 +3,7 @@
 ## Challenges
 <ol>
     <li><b>Part 1:</b> :white_check_mark:</li>
-    <li><b>Part 2:</b> :x:</li>
+    <li><b>Part 2:</b> :white_check_mark:</li>
 </ol>
 
 ## Performance
