@@ -1,6 +1,6 @@
 # Advent of Code
 
-This repo will hold the code for the adventofcode challenges for each year
+This repo will hold the code for the adventofcode challenges for each year. Certain years may be incomplete as I don't always have time to keep up the calendar after work but may be revisited as brain teasers in the future!
 
 ## Performance ranks
 | Time | Icon | Count |
